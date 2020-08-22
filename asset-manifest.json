@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/tsx-app/static/css/main.5f361e03.chunk.css",
-    "main.js": "/tsx-app/static/js/main.41548d92.chunk.js",
-    "main.js.map": "/tsx-app/static/js/main.41548d92.chunk.js.map",
+    "main.css": "/tsx-app/static/css/main.adf54d35.chunk.css",
+    "main.js": "/tsx-app/static/js/main.81feb7d6.chunk.js",
+    "main.js.map": "/tsx-app/static/js/main.81feb7d6.chunk.js.map",
     "runtime-main.js": "/tsx-app/static/js/runtime-main.a423f21a.js",
     "runtime-main.js.map": "/tsx-app/static/js/runtime-main.a423f21a.js.map",
     "static/js/2.ad0f1fca.chunk.js": "/tsx-app/static/js/2.ad0f1fca.chunk.js",
     "static/js/2.ad0f1fca.chunk.js.map": "/tsx-app/static/js/2.ad0f1fca.chunk.js.map",
     "index.html": "/tsx-app/index.html",
-    "precache-manifest.f04703f7a846b5264661603bfc7f32ad.js": "/tsx-app/precache-manifest.f04703f7a846b5264661603bfc7f32ad.js",
+    "precache-manifest.a3d22c922718f8c8f0221584e949271e.js": "/tsx-app/precache-manifest.a3d22c922718f8c8f0221584e949271e.js",
     "service-worker.js": "/tsx-app/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/tsx-app/static/css/main.5f361e03.chunk.css.map",
+    "static/css/main.adf54d35.chunk.css.map": "/tsx-app/static/css/main.adf54d35.chunk.css.map",
     "static/js/2.ad0f1fca.chunk.js.LICENSE.txt": "/tsx-app/static/js/2.ad0f1fca.chunk.js.LICENSE.txt",
     "static/media/cat-tongue.jpeg": "/tsx-app/static/media/cat-tongue.185011ae.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.a423f21a.js",
     "static/js/2.ad0f1fca.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.41548d92.chunk.js"
+    "static/css/main.adf54d35.chunk.css",
+    "static/js/main.81feb7d6.chunk.js"
   ]
 }
