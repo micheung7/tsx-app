@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e01e72f32e5946511adc7c6773206408",
+    "revision": "fefc693dd979b8b1bdf17e7305e8889f",
     "url": "/tsx-app/index.html"
   },
   {
-    "revision": "5ae0ea52f28aabe605bb",
+    "revision": "ab1a092b298c028d71aa",
     "url": "/tsx-app/static/css/main.6516b418.chunk.css"
   },
   {
-    "revision": "1820025ffd045cb8c633",
-    "url": "/tsx-app/static/js/2.ad0f1fca.chunk.js"
+    "revision": "bad29dc58f131c7b0ecf",
+    "url": "/tsx-app/static/js/2.72421683.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/tsx-app/static/js/2.ad0f1fca.chunk.js.LICENSE.txt"
+    "revision": "0749163b59fbee32225059cb60c18af6",
+    "url": "/tsx-app/static/js/2.72421683.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5ae0ea52f28aabe605bb",
-    "url": "/tsx-app/static/js/main.cda1270e.chunk.js"
+    "revision": "ab1a092b298c028d71aa",
+    "url": "/tsx-app/static/js/main.cb710718.chunk.js"
   },
   {
     "revision": "cec481a484d230ced582",
@@ -46,5 +46,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c4ea786d05b85aaa9bdf260f400429e",
     "url": "/tsx-app/static/media/cat-upsidedown.7c4ea786.jpeg"
+  },
+  {
+    "revision": "bf3121ad54ec323b3dc5098ab917b71c",
+    "url": "/tsx-app/static/media/code.bf3121ad.svg"
+  },
+  {
+    "revision": "29a976ac790447566f96ef7975a201f9",
+    "url": "/tsx-app/static/media/next-arrow.29a976ac.svg"
   }
 ]);
