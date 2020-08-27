@@ -1,30 +1,29 @@
 {
   "files": {
     "main.css": "/tsx-app/static/css/main.6516b418.chunk.css",
-    "main.js": "/tsx-app/static/js/main.5ec35cf8.chunk.js",
-    "main.js.map": "/tsx-app/static/js/main.5ec35cf8.chunk.js.map",
+    "main.js": "/tsx-app/static/js/main.de97a9d5.chunk.js",
+    "main.js.map": "/tsx-app/static/js/main.de97a9d5.chunk.js.map",
     "runtime-main.js": "/tsx-app/static/js/runtime-main.a423f21a.js",
     "runtime-main.js.map": "/tsx-app/static/js/runtime-main.a423f21a.js.map",
-    "static/js/2.b6b350c0.chunk.js": "/tsx-app/static/js/2.b6b350c0.chunk.js",
-    "static/js/2.b6b350c0.chunk.js.map": "/tsx-app/static/js/2.b6b350c0.chunk.js.map",
+    "static/js/2.6934b5ff.chunk.js": "/tsx-app/static/js/2.6934b5ff.chunk.js",
+    "static/js/2.6934b5ff.chunk.js.map": "/tsx-app/static/js/2.6934b5ff.chunk.js.map",
     "index.html": "/tsx-app/index.html",
-    "precache-manifest.7d64e9790774af60f4ae5a4972306564.js": "/tsx-app/precache-manifest.7d64e9790774af60f4ae5a4972306564.js",
+    "precache-manifest.b317af74e53a8711a7cdfc8cbd5de930.js": "/tsx-app/precache-manifest.b317af74e53a8711a7cdfc8cbd5de930.js",
     "service-worker.js": "/tsx-app/service-worker.js",
     "static/css/main.6516b418.chunk.css.map": "/tsx-app/static/css/main.6516b418.chunk.css.map",
-    "static/js/2.b6b350c0.chunk.js.LICENSE.txt": "/tsx-app/static/js/2.b6b350c0.chunk.js.LICENSE.txt",
+    "static/js/2.6934b5ff.chunk.js.LICENSE.txt": "/tsx-app/static/js/2.6934b5ff.chunk.js.LICENSE.txt",
     "static/media/cat-bar.jpeg": "/tsx-app/static/media/cat-bar.26961ae6.jpeg",
     "static/media/cat-bathtub.jpeg": "/tsx-app/static/media/cat-bathtub.b079e743.jpeg",
     "static/media/cat-dashboard.jpeg": "/tsx-app/static/media/cat-dashboard.5d72b192.jpeg",
     "static/media/cat-lap.jpeg": "/tsx-app/static/media/cat-lap.9a3373a2.jpeg",
     "static/media/cat-tongue.jpeg": "/tsx-app/static/media/cat-tongue.185011ae.jpeg",
     "static/media/cat-upsidedown.jpeg": "/tsx-app/static/media/cat-upsidedown.7c4ea786.jpeg",
-    "static/media/code.svg": "/tsx-app/static/media/code.bf3121ad.svg",
-    "static/media/next-arrow.svg": "/tsx-app/static/media/next-arrow.29a976ac.svg"
+    "static/media/code.svg": "/tsx-app/static/media/code.bf3121ad.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a423f21a.js",
-    "static/js/2.b6b350c0.chunk.js",
+    "static/js/2.6934b5ff.chunk.js",
     "static/css/main.6516b418.chunk.css",
-    "static/js/main.5ec35cf8.chunk.js"
+    "static/js/main.de97a9d5.chunk.js"
   ]
 }
