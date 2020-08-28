@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Popover from 'react-bootstrap/Popover'
 import './App.css';
 import tileData from './images/tileData';
 import Avatar from '@material-ui/core/Avatar';
-
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
 import IconButton from '@material-ui/core/IconButton';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
@@ -23,14 +23,13 @@ const useStyles = makeStyles((theme: Theme) =>
     gridList: {
       justifyContent: 'space-evenly',
     },
-    titleBar: {
-      background: 'linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 70%, rgba(0,0,0,0) 100%)',
-    },
     title: {
-      color: '#a8fff9',
+      color: '#602cc9',
     },
-    subtitle: {
-      color: '#cefc03',
+    hover: {
+      '&:hover': {
+          opacity: .5,
+      },
     },
     avatarSize: {
       width: '250px',
@@ -54,25 +53,7 @@ function App() {
             </Fragment>
           </GridListTile>
           {tileData.map((tile) => (
-            <Fragment>
-              <GridListTile key={tile.img}>
-                <IconButton
-                  aria-label={`info about ${tile.title}`}
-                  href={tile.url}
-                >
-                  <Avatar alt={tile.title} src={tile.img} variant='circle' className={classes.avatarSize}/>
-                </IconButton>
-                <GridListTileBar
-                  classes={{
-                    root: classes.titleBar,
-                    title: classes.title,
-                    subtitle: classes.subtitle,
-                  }}
-                  title={tile.title}
-                  subtitle={<span>Description</span>}
-                />
-              </GridListTile>
-            </Fragment>
+            <TileComponent tileContent={tile} classes={classes}></TileComponent>
           ))}
         </GridList>
       </div>
@@ -83,3 +64,53 @@ function App() {
 }
 
 export default App;
+
+interface TileComponentProps {
+  tileContent: any;
+  classes: any;
+}
+
+class TileComponent extends React.Component<any, TileComponentProps> {
+  private tileContent: any;
+  private classes: any;
+  private tilePopover = (tile: any) => {
+    return <Popover
+      id="popover-positioned-top"
+      title="Popover top"
+      className={this.classes.title}
+    >
+      <strong>{tile.title}</strong>
+    </Popover>
+  };
+
+  constructor(props: any) {
+    super(props);
+    this.tileContent = props.tileContent;
+    this.classes = props.classes;
+  }
+
+  render() {
+    return (
+      <GridListTile key={this.tileContent.img}>
+          <IconButton
+            aria-label={`info about ${this.tileContent.title}`}
+            className={this.classes.hover}
+            href={this.tileContent.url}
+          >
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 150, hide: 200 }}
+              overlay={this.tilePopover(this.tileContent)}
+            >
+              <Avatar
+                alt={this.tileContent.title}
+                src={this.tileContent.img}
+                variant='circle'
+                className={this.classes.avatarSize}
+              />
+            </OverlayTrigger>
+          </IconButton>
+      </GridListTile>
+    );
+  }
+}

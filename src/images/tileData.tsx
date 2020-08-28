@@ -2,12 +2,12 @@ const tileData = [
   {
     img: require('./cat-bar.jpeg'),
     title: 'Cat Bar',
-    url: 'https://www.google.com/chrome/',
+    url: 'https://www.google.com',
   },
   {
     img: require('./cat-bathtub.jpeg'),
     title: 'Cat Bathtub',
-    url: 'https://www.mozilla.org/en-US/firefox/new/',
+    url: 'https://www.mozilla.org/en-US/firefox/new',
   },
   {
     img: require('./cat-dashboard.jpeg'),
