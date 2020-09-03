@@ -1,6 +1,12 @@
 import React, { Fragment } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
-import TileComponent from './Components/TileComponent';
+import About from './components/About';
+import Contact from './components/Contact';
+import Error from './components/Error';
+import Home from './components/Home';
+import Navigation from './components/Navigation';
+import TileComponent from './components/TileComponent';
 import tileData from './images/tileData';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
@@ -54,6 +60,17 @@ function App() {
           ))}
         </GridList>
       </div>
+      <BrowserRouter>
+        <div>
+          <Navigation />
+            <Switch>
+              <Route path="/" component={Home} exact/>
+              <Route path="/about" component={About}/>
+              <Route path="/contact" component={Contact}/>
+              <Route component={Error}/>
+            </Switch>
+        </div> 
+      </BrowserRouter>
       <ListSubheader component="div">Attributions</ListSubheader>
       <div>Code Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
