@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "605c6020f594acef81c5af643b51a1c3",
+    "revision": "868ce4b056a5f619b92d27b6677303f7",
     "url": "/tsx-app/index.html"
   },
   {
-    "revision": "f97cf04916b5e3e71e6c",
+    "revision": "c9715991d1d664c114d1",
     "url": "/tsx-app/static/css/main.6516b418.chunk.css"
   },
   {
-    "revision": "2dadada12a32b485b83d",
-    "url": "/tsx-app/static/js/2.db0bc8d7.chunk.js"
+    "revision": "3a272f9c1f0b65799b38",
+    "url": "/tsx-app/static/js/2.b0489fcd.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/tsx-app/static/js/2.db0bc8d7.chunk.js.LICENSE.txt"
+    "url": "/tsx-app/static/js/2.b0489fcd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f97cf04916b5e3e71e6c",
-    "url": "/tsx-app/static/js/main.49b39b40.chunk.js"
+    "revision": "c9715991d1d664c114d1",
+    "url": "/tsx-app/static/js/main.f0ea78ca.chunk.js"
   },
   {
     "revision": "cec481a484d230ced582",
