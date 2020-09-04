@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Error = () => {
+function Error() {
   return (
     <div>
-      <p>Error: Page does not exist!</p>
+      <p>Error: Sorry, page does not exist! x_x </p>
     </div>
   );
 }
