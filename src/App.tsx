@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
+import { Route, Switch, NavLink, HashRouter } from 'react-router-dom';
 import './App.css';
 import About from './components/About';
 import Error from './components/Error';
@@ -12,7 +12,7 @@ import Button from '@material-ui/core/Button';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/tsx-app">
+      <HashRouter>
         <div>
           <Navigation />
             <Switch>
@@ -28,7 +28,7 @@ function App() {
         <img src={require('./images/code.svg')} alt="code" width="30" height="30"/>
         <ListSubheader component="div">...Work in Progress...</ListSubheader>
       </Button>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
