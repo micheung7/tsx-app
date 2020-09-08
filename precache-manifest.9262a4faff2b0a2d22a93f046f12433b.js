@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a01f0d96dff1d370471c096488834f8d",
+    "revision": "32d043179e2760f65e42932c892e3eca",
     "url": "/tsx-app/index.html"
   },
   {
-    "revision": "a4766825a7ceba769b8d",
+    "revision": "983d012cb9993a3ee4b8",
     "url": "/tsx-app/static/css/main.6516b418.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tsx-app/static/js/2.2a07a8eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4766825a7ceba769b8d",
-    "url": "/tsx-app/static/js/main.f0211fcf.chunk.js"
+    "revision": "983d012cb9993a3ee4b8",
+    "url": "/tsx-app/static/js/main.c17cafc6.chunk.js"
   },
   {
     "revision": "cec481a484d230ced582",
