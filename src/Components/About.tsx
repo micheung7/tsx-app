@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import SectionBox from './SectionBox';
-import { Button, createStyles, GridList, makeStyles, Theme } from '@material-ui/core';
+import { Button, GridList, makeStyles, Theme, createStyles } from '@material-ui/core';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
